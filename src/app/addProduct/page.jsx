@@ -117,8 +117,8 @@ export default function AddProductForm() {
   return (
     <div>
       <div className="my-6 text-center">
-        <h2 className="text-2xl font-bold text-white">Add a New Product</h2>
-        <p className="text-gray-400 mt-2">Fill in the details below to list your product in the store.</p>
+        <h2 className="text-2xl font-bold text-gray-800">Add a New Product</h2>
+        <p className="text-gray-600 mt-2">Fill in the details below to list your product in the store.</p>
       </div>
 
 

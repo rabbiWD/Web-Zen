@@ -114,10 +114,10 @@ const handleDelete = async () => {
                     />
 
                     <div>
-                        <h1 className="text-2xl text-black font-bold mb-2">{product.title}</h1>
-                        <p className="text-black mb-3">{product.description}</p>
+                        <h1 className="text-2xl font-bold mb-2">{product.title}</h1>
+                        <p className="text-gray-600 mb-3">{product.description}</p>
 
-                        <div className="space-y-2 text-black">
+                        <div className="space-y-2">
                             <p><strong>Brand:</strong> {product.brand}</p>
                             <p><strong>Category:</strong> {product.category}</p>
                             <p><strong>Price:</strong> ${product.price}</p>
