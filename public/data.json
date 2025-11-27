@@ -1,0 +1,134 @@
+[
+  {
+    "title": "Nike Air Zoom Pegasus 39",
+    "image": "https://i.ibb.co.com/qYrZbRbZ/Nike-Air-Zoom-Pegasus-39.png",
+    "category": "Men",
+    "sizes": [7, 8, 9, 10],
+    "price": 120,
+    "color": ["Red", "Black", "Blue"],
+    "discount": "20% OFF",
+    "rating": 4.5,
+    "description": "Lightweight running shoes with breathable mesh"
+  },
+  {
+    "title": "Adidas Ultraboost 22",
+    "image": "https://i.ibb.co.com/v4YSHLPq/Adidas-Ultraboost-22.png",
+    "category": "Men",
+    "sizes": [8, 9, 10, 11],
+    "price": 150,
+    "color": ["White", "Black"],
+    "discount": "15% OFF",
+    "rating": 4.7,
+    "description": "Comfortable and responsive running shoes"
+  },
+  {
+    "title": "Puma RS-X Cube",
+    "image": "https://i.ibb.co.com/PZzNk4SD/Puma-RS-X-Cube.png",
+    "category": "Men",
+    "sizes": [7, 8, 9, 10, 11],
+    "price": 110,
+    "color": ["Blue", "Gray", "White"],
+    "discount": "10% OFF",
+    "rating": 4.3,
+    "description": "Stylish casual sneakers with retro design"
+  },
+  {
+    "title": "Reebok Nano X3",
+    "image": "https://i.ibb.co.com/8gkYbrxM/Reebok-Nano-X3.png",
+    "category": "Men",
+    "sizes": [8, 9, 10, 11],
+    "price": 130,
+    "color": ["Black", "Green"],
+    "discount": "25% OFF",
+    "rating": 4.6,
+    "description": "High-performance cross-training shoes"
+  },
+  {
+    "title": "Nike Air Max 270",
+    "image": "https://i.ibb.co.com/XrtkQXF7/Nike-Air-Max-270.png",
+    "category": "Women",
+    "sizes": [5, 6, 7, 8],
+    "price": 140,
+    "color": ["Pink", "White", "Black"],
+    "discount": "20% OFF",
+    "rating": 4.8,
+    "description": "Comfortable everyday sneakers with style"
+  },
+  {
+    "title": "Adidas Lite Racer Adapt",
+    "image": "https://i.ibb.co.com/8ng1W8c8/Adidas-Lite-Racer-Adapt.png",
+    "category": "Women",
+    "sizes": [5, 6, 7, 8, 9],
+    "price": 100,
+    "color": ["Gray", "White"],
+    "discount": "15% OFF",
+    "rating": 4.4,
+    "description": "Lightweight and casual running shoes"
+  },
+  {
+    "title": "Puma Flyer Runner",
+    "image": "https://i.ibb.co.com/gMfXX5wX/Puma-Flyer-Runner.png",
+    "category": "Women",
+    "sizes": [6, 7, 8, 9],
+    "price": 120,
+    "color": ["Blue", "White"],
+    "discount": "10% OFF",
+    "rating": 4.5,
+    "description": "Flexible running shoes for daily workouts"
+  },
+  {
+    "title": "Reebok Flexagon Energy",
+    "image": "https://i.ibb.co.com/RGn53FZH/Reebok-Flexagon-Energy.png",
+    "category": "Women",
+    "sizes": [5, 6, 7, 8],
+    "price": 130,
+    "color": ["Black", "Pink"],
+    "discount": "20% OFF",
+    "rating": 4.6,
+    "description": "Supportive and stylish training sneakers"
+  },
+  {
+    "title": "Nike Kids Revolution 6",
+    "image": "https://i.ibb.co.com/bM6LWcNx/Nike-Kids-Revolution-6.png",
+    "category": "Kids",
+    "sizes": [1, 2, 3, 4],
+    "price": 60,
+    "color": ["Blue", "Red"],
+    "discount": "15% OFF",
+    "rating": 4.3,
+    "description": "Durable running shoes for active kids"
+  },
+  {
+    "title": "Adidas Tensaur Run",
+    "image": "https://i.ibb.co.com/nqPBCSVJ/Adidas-Tensaur-Run.png",
+    "category": "Kids",
+    "sizes": [2, 3, 4, 5],
+    "price": 50,
+    "color": ["Green", "White"],
+    "discount": "10% OFF",
+    "rating": 4.2,
+    "description": "Comfortable and lightweight kids' sneakers"
+  },
+  {
+    "title": "Puma Smash v2",
+    "image": "https://i.ibb.co.com/ZRS8B9FM/Puma-Smash-v2.png",
+    "category": "Kids",
+    "sizes": [1, 2, 3, 4],
+    "price": 55,
+    "color": ["Pink", "White"],
+    "discount": "20% OFF",
+    "rating": 4.4,
+    "description": "Classic casual shoes for kids"
+  },
+  {
+    "title": "Reebok Royal Classic Jogger",
+    "image": "https://i.ibb.co.com/PZBD6Cmp/Reebok-Royal-Classic-Jogger.png",
+    "category": "Kids",
+    "sizes": [2, 3, 4, 5],
+    "price": 65,
+    "color": ["Black", "Blue"],
+    "discount": "15% OFF",
+    "rating": 4.5,
+    "description": "Durable and stylish sneakers for kids"
+  }
+]

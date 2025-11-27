@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Emily Johnson",
+    "role": "Entrepreneur",
+    "location": "New York, USA",
+    "image": "https://i.ibb.co/q3fBPpXP/avater.jpg",
+    "rating": 5,
+    "testimonial": "The shoes I purchased are amazing! Comfortable and stylish. Highly recommend Footwear Zone."
+  },
+  {
+    "name": "Michael Smith",
+    "role": "Software Engineer",
+    "location": "London, UK",
+    "image": "https://i.ibb.co/q3fBPpXP/avater.jpg",
+    "rating": 4,
+    "testimonial": "Great quality shoes with fast delivery. Customer support was also very helpful."
+  },
+  {
+    "name": "Sophia Lee",
+    "role": "Fashion Blogger",
+    "location": "Los Angeles, USA",
+    "image": "https://i.ibb.co/q3fBPpXP/avater.jpg",
+    "rating": 5,
+    "testimonial": "Footwear Zone has an incredible collection. Every pair I bought fits perfectly."
+  },
+  {
+    "name": "Daniel Brown",
+    "role": "Teacher",
+    "location": "Toronto, Canada",
+    "image": "https://i.ibb.co/q3fBPpXP/avater.jpg",
+    "rating": 4,
+    "testimonial": "I am really happy with the service and quality. Definitely ordering again."
+  },
+  {
+    "name": "Olivia Davis",
+    "role": "Designer",
+    "location": "Sydney, Australia",
+    "image": "https://i.ibb.co/q3fBPpXP/avater.jpg",
+    "rating": 5,
+    "testimonial": "Stylish shoes, amazing comfort, and fast shipping. Highly satisfied!"
+  },
+  {
+    "name": "James Wilson",
+    "role": "Photographer",
+    "location": "Berlin, Germany",
+    "image": "https://i.ibb.co/q3fBPpXP/avater.jpg",
+    "rating": 4,
+    "testimonial": "Good variety and excellent customer service. My favorite online shoe store."
+  },
+  {
+    "name": "Isabella Martinez",
+    "role": "Student",
+    "location": "Madrid, Spain",
+    "image": "https://i.ibb.co/q3fBPpXP/avater.jpg",
+    "rating": 5,
+    "testimonial": "I love my new shoes! Perfect fit and very comfortable for daily use."
+  },
+  {
+    "name": "William Anderson",
+    "role": "Business Owner",
+    "location": "Chicago, USA",
+    "image": "https://i.ibb.co/q3fBPpXP/avater.jpg",
+    "rating": 5,
+    "testimonial": "Excellent shopping experience. The quality and design of shoes are top-notch."
+  }
+]
