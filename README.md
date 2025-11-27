@@ -13,10 +13,9 @@ Footwear Zone is an online footwear store built with **Next.js**, **React**, **T
 ---
 
 ## Live Demo & GitHub Links
-- **Live Site:**  
-- **Client Repository:**   
-- **Server Repository:**  
- 
+> 🔗 Live Demo:  
+> [https://web-zen-client.vercel.app/](https://web-zen-client.vercel.app/)
+     
 
 ---
 
