@@ -118,8 +118,8 @@ export default function EditProductPage() {
   return (
     <div>
       <div className="my-6 text-center">
-        <h2 className="text-2xl font-bold text-gray-800">Edit Product</h2>
-        <p className="text-gray-600 mt-2">Update product details below.</p>
+        <h2 className="text-2xl font-bold text-white">Edit Product</h2>
+        <p className="text-white mt-2">Update product details below.</p>
       </div>
 
       <form

@@ -104,8 +104,8 @@ export default function Page() {
         <div className="p-6">
 
             <div className="my-6 text-center">
-                <h2 className="text-2xl font-bold text-gray-800">Manage Your Products</h2>
-                <p className="text-gray-600 mt-2">View, edit, or delete your products from the list below.</p>
+                <h2 className="text-2xl font-bold text-white">Manage Your Products</h2>
+                <p className="text-gray-400 mt-2">View, edit, or delete your products from the list below.</p>
             </div>
 
             <h1 className="text-3xl font-bold mb-6 text-center">Total Products <span>({products.length})</span> </h1>
