@@ -4,80 +4,81 @@ import { Facebook, Instagram, Phone, Mail, MapPin, X } from "lucide-react";
 import Link from "next/link";
 
 export default function Footer() {
-  return (
-    <footer className="bg-base-200 text-base-content py-12 px-6 mt-10">
-      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
+return ( <footer className="bg-gray-900 text-gray-200 py-16 px-6"> <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
 
-        {/* Brand */}
-        <div className="space-y-3">
-          <h2 className="text-3xl font-bold tracking-wide">
-            Foot<span className="text-primary">Wear</span>
-          </h2>
-          <p className="text-sm leading-relaxed">
-            Premium shoes designed for comfort, performance, and style.  
-            Step into quality with FootwearZoon.
-          </p>
+    {/* Brand */}
+    <div className="space-y-4">
+      <h2 className="text-3xl font-extrabold tracking-tight text-white">
+        Web<span className="text-primary">Zen</span>
+      </h2>
+      <p className="text-gray-400 text-sm leading-relaxed">
+        Premium shoes designed for comfort, performance, and style. Step into quality with FootwearZoon.
+      </p>
 
-          {/* Social Icons */}
-          <div className="flex gap-4 pt-2">
-            <a className="p-2 rounded-full bg-base-300 hover:bg-primary hover:text-white transition">
-              <Facebook size={18} />
-            </a>
-            <a className="p-2 rounded-full bg-base-300 hover:bg-primary hover:text-white transition">
-              <Instagram size={18} />
-            </a>
-            <a className="p-2 rounded-full bg-base-300 hover:bg-primary hover:text-white transition">
-              <X size={18} /> {/* Twitter X Logo */}
-            </a>
-          </div>
-        </div>
+      {/* Social Icons */}
+      <div className="flex gap-4 pt-2">
+        <a className="p-2 rounded-full bg-gray-800 hover:bg-primary hover:text-white transition flex items-center justify-center">
+          <Facebook size={18} />
+        </a>
+        <a className="p-2 rounded-full bg-gray-800 hover:bg-primary hover:text-white transition flex items-center justify-center">
+          <Instagram size={18} />
+        </a>
+        <a className="p-2 rounded-full bg-gray-800 hover:bg-primary hover:text-white transition flex items-center justify-center">
+          <X size={18} />
+        </a>
+      </div>
+    </div>
 
-        {/* Quick Links */}
-        <div>
-          <h3 className="footer-title text-lg font-semibold mb-3">Quick Links</h3>
-          <ul className="space-y-2 text-sm">
-            <li><Link href={"/"} className="link link-hover">Home</Link></li>
-            <li><Link href={"/shop"} className="link link-hover">Shop</Link></li>
-            <li><Link href={"/men"} className="link link-hover">Men's Shoes</Link></li>
-            <li><Link href={"/women"} className="link link-hover">Women's Shoes</Link></li>
-            <li><Link href={"/kids"} className="link link-hover">Kids</Link></li>
-          </ul>
-        </div>
+    {/* Quick Links */}
+    <div>
+      <h3 className="text-lg font-semibold mb-4 text-white border-b border-gray-700 pb-2">Quick Links</h3>
+      <ul className="space-y-2 text-sm">
+        <li><Link href="/" className="hover:text-primary transition">Home</Link></li>
+        <li><Link href="/shop" className="hover:text-primary transition">Shop</Link></li>
+        <li><Link href="/men" className="hover:text-primary transition">Men's Shoes</Link></li>
+        <li><Link href="/women" className="hover:text-primary transition">Women's Shoes</Link></li>
+        <li><Link href="/kids" className="hover:text-primary transition">Kids</Link></li>
+      </ul>
+    </div>
 
-        {/* Customer Support */}
-        <div>
-          <h3 className="footer-title text-lg font-semibold mb-3">Customer Support</h3>
-          <ul className="space-y-2 text-sm">
-            <li><Link href={"/"} className="link link-hover">About Us</Link></li>
-            <li><Link href={"/"} className="link link-hover">Contact Us</Link></li>
-            <li><Link href={"/"} className="link link-hover">FAQs</Link></li>
-            <li><Link href={"/"} className="link link-hover">Returns & Exchanges</Link></li>
-            <li><Link href={"/"} className="link link-hover">Shipping Policy</Link></li>
-          </ul>
-        </div>
+    {/* Customer Support */}
+    <div>
+      <h3 className="text-lg font-semibold mb-4 text-white border-b border-gray-700 pb-2">Customer Support</h3>
+      <ul className="space-y-2 text-sm">
+        <li><Link href="/" className="hover:text-primary transition">About Us</Link></li>
+        <li><Link href="/" className="hover:text-primary transition">Contact Us</Link></li>
+        <li><Link href="/" className="hover:text-primary transition">FAQs</Link></li>
+        <li><Link href="/" className="hover:text-primary transition">Returns & Exchanges</Link></li>
+        <li><Link href="/" className="hover:text-primary transition">Shipping Policy</Link></li>
+      </ul>
+    </div>
 
-        {/* Contact */}
-        <div>
-          <h3 className="footer-title text-lg font-semibold mb-3">Get in Touch</h3>
+    {/* Contact */}
+    <div>
+      <h3 className="text-lg font-semibold mb-4 text-white border-b border-gray-700 pb-2">Get in Touch</h3>
 
-          <p className="flex items-center gap-2 text-sm">
-            <Phone size={18} /> +1 (234) 567-890
-          </p>
-
-          <p className="flex items-center gap-2 mt-2 text-sm">
-            <Mail size={18} /> support@footwearzoon.com
-          </p>
-
-          <p className="flex items-center gap-2 mt-2 text-sm">
-            <MapPin size={18} /> New York, United States
-          </p>
-        </div>
+      <div className="flex items-center gap-3 bg-gray-800 p-3 rounded-lg mt-2">
+        <Phone size={18} className="text-primary" />
+        <span className="text-sm">+1 (234) 567-890</span>
       </div>
 
-      {/* Bottom Footer */}
-      <div className="text-center mt-10 pt-5 text-sm opacity-70">
-        © {new Date().getFullYear()} Footwear — All rights reserved.
+      <div className="flex items-center gap-3 bg-gray-800 p-3 rounded-lg mt-2">
+        <Mail size={18} className="text-primary" />
+        <span className="text-sm">support@footwearzoon.com</span>
       </div>
-    </footer>
-  );
+
+      <div className="flex items-center gap-3 bg-gray-800 p-3 rounded-lg mt-2">
+        <MapPin size={18} className="text-primary" />
+        <span className="text-sm">New York, United States</span>
+      </div>
+    </div>
+  </div>
+
+  {/* Bottom Footer */}
+  <div className="mt-12 border-t border-gray-700 pt-6 text-center text-gray-500 text-sm">
+    © {new Date().getFullYear()} Footwear — All rights reserved.
+  </div>
+</footer>
+
+);
 }
