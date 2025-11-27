@@ -68,8 +68,8 @@ return (
                             </Link>
                             <li className="font-semibold text-gray-800">{user?.displayName}</li>
                             <li className="text-gray-500 text-sm">{user?.email}</li>
-                            <Link href="/addProduct" className="hover:text-primary transition">Add Product</Link>
-                            <Link href="/productmanage" className="hover:text-primary transition">Manage Products</Link>
+                            <Link href="/addProduct" className="hover:text-primary text-black transition">Add Product</Link>
+                            <Link href="/productmanage" className="hover:text-primary text-black transition">Manage Products</Link>
                             <button onClick={signOutUser} className="btn bg-primary text-white w-full mt-2">Sign Out</button>
                         </ul>
                     </div>

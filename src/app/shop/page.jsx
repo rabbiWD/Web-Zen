@@ -53,7 +53,7 @@ export default function ProductsPage() {
           <select
             value={category}
             onChange={(e) => setCategory(e.target.value)}
-            className='border border-gray-300 rounded px-4 py-2 w-full md:w-64'
+            className='border border-white text-gray-300 rounded px-4 py-2 w-full md:w-64'
           >
             <option value="all">All Categories</option>
             <option value="men">Men</option>
